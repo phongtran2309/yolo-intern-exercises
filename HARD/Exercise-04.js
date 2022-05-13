@@ -5,15 +5,15 @@ function extendArray(array1, array2) {
     for(let i = 0; i < array1.length; i++) {
         array[i] = array1[i];
     }
-    for( let j = 0; j < array2.length; j++) {
+    for(let j = 0; j < array2.length; j++) {
         array[array1.length + j] = array2[j];
     }
-    for(let k = 0; k < array.length; k++) {
-        for(let l = 0; l < array.length - 1; l++) {
+    for(let k = 0; k < array.length - 1; k++) {
+        for(let l = k + 1; l < array.length; l++) {
             if(array[k] > array[l]) {
-                let comp = array[k];
-                array[k] = array[l];
-                array[l] = comp;
+                let comp = array[l];
+                array[l] = array[k];
+                array[k] = comp;
             }
         }
     }
