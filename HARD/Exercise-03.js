@@ -1,5 +1,5 @@
-let myArray2 = [1, 2, 3];
-let myArray1 = [11, 12, 13];
+let myArray2 = [8, 6, 3];
+let myArray1 = [111, 102, 13];
 function extendArray(myArray1, myArray2) {
     let myArray = [];
     for(let i = 0 ; i < myArray1.length; i++) {
