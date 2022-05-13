@@ -9,4 +9,4 @@ function reverse(str) {
     }
     return res;
 }
-alert(reverse('Xin chao ban Phong du dinh'));
+console.log(reverse('Xin chao ban Phong du dinh'));
