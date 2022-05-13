@@ -10,7 +10,7 @@ function extendArray(array1, array2) {
     }
     for(let j = 0; j < array.length - 1; j++) {
         for(let k = j + 1; k < array.length; k++) {
-            if ( array[j] < array[k]) {
+            if(array[j] < array[k]) {
                 let comp = array[k];
                 array[k] = array[j];
                 array[j] = comp;
