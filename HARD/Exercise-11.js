@@ -1,6 +1,5 @@
 let number = [9];
 function countFactorial (number) {
-    let result = 1;
     let fact = 1;
     if(number > 1) {
         for(i = 1; i <= number; i++){
